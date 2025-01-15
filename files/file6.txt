@@ -1,0 +1,35 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.8  0.0 167020 12508 ?        Ss   15:58   0:10 /sbin/init
+root           2  0.0  0.0   2616  1512 ?        Sl   15:58   0:00 /init
+root           6  0.0  0.0   2616     4 ?        Sl   15:58   0:00 plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --log-truncate
+root          35  0.0  0.0  47752 15128 ?        S<s  15:58   0:00 /lib/systemd/systemd-journald
+root          55  0.0  0.0  22100  5840 ?        Ss   15:58   0:00 /lib/systemd/systemd-udevd
+root          69  0.0  0.0 152992  2244 ?        Ssl  15:58   0:00 snapfuse /var/lib/snapd/snaps/bare_5.snap /snap/bare/5 -o ro,nodev,allow_other,suid
+root          70  0.0  0.0 152992  2220 ?        Ssl  15:58   0:00 snapfuse /var/lib/snapd/snaps/core22_864.snap /snap/core22/864 -o ro,nodev,allow_other,suid
+root          75  0.0  0.0 153124  2228 ?        Ssl  15:58   0:00 snapfuse /var/lib/snapd/snaps/gtk-common-themes_1535.snap /snap/gtk-common-themes/1535 -o ro,nodev,allow_other,suid
+root          81  0.0  0.0 452048 13764 ?        Ssl  15:58   0:00 snapfuse /var/lib/snapd/snaps/core22_1722.snap /snap/core22/1722 -o ro,nodev,allow_other,suid
+root          83  0.0  0.0 302520  8736 ?        Ssl  15:58   0:00 snapfuse /var/lib/snapd/snaps/snapd_20290.snap /snap/snapd/20290 -o ro,nodev,allow_other,suid
+root          91  0.0  0.0 152992   184 ?        Ssl  15:58   0:00 snapfuse /var/lib/snapd/snaps/ubuntu-desktop-installer_1276.snap /snap/ubuntu-desktop-installer/1276 -o ro,nodev,allow_other,suid
+root          95  0.0  0.0 302520 13936 ?        Ssl  15:58   0:00 snapfuse /var/lib/snapd/snaps/ubuntu-desktop-installer_1286.snap /snap/ubuntu-desktop-installer/1286 -o ro,nodev,allow_other,suid
+systemd+     113  0.0  0.0  25540 12552 ?        Ss   15:58   0:00 /lib/systemd/systemd-resolved
+root         155  0.0  0.0   4308  2640 ?        Ss   15:58   0:00 /usr/sbin/cron -f -P
+message+     157  0.0  0.0   8596  4676 ?        Ss   15:58   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         160  0.0  0.1  30100 19072 ?        Ss   15:58   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       162  0.0  0.0 222404  7152 ?        Ssl  15:58   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         169  0.0  0.0  15332  7412 ?        Ss   15:58   0:00 /lib/systemd/systemd-logind
+root         232  0.0  0.0   4784  3352 ?        Ss   15:58   0:00 /bin/bash /snap/ubuntu-desktop-installer/1286/bin/subiquity-server
+root         234  0.0  0.1 107228 20800 ?        Ssl  15:58   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         243  0.0  0.0   3240  1088 hvc0     Ss+  15:58   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud console 115200,38400,9600 vt220
+root         245  0.0  0.0   3196  1072 tty1     Ss+  15:58   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         288  0.1  0.5 885640 81748 ?        Sl   15:58   0:02 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         331  0.0  0.0   2616   124 ?        Ss   15:58   0:00 /init
+root         332  0.0  0.0   2616   124 ?        S    15:58   0:00 /init
+twelch       333  0.0  0.0   6212  5372 pts/0    Ss   15:58   0:00 -bash
+root         334  0.0  0.0   7528  5004 pts/1    Ss   15:58   0:00 /bin/login -f
+twelch       392  0.0  0.0  16912  9172 ?        Ss   15:58   0:00 /lib/systemd/systemd --user
+twelch       393  0.0  0.0 168896  3368 ?        S    15:58   0:00 (sd-pam)
+twelch       398  0.0  0.0   6124  4864 pts/1    S+   15:58   0:00 -bash
+root         428  0.4  0.2  44184 37664 ?        S    15:58   0:06 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root        1903  0.0  0.0 302520 12740 ?        Ssl  16:03   0:00 snapfuse /var/lib/snapd/snaps/snapd_23545.snap /snap/snapd/23545 -o ro,nodev,allow_other,suid
+root        1994  0.0  0.2 1764600 43116 ?       Ssl  16:03   0:00 /usr/lib/snapd/snapd
+twelch      6555  0.0  0.0   7484  3232 pts/0    R+   16:20   0:00 ps aux

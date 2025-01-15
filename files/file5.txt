@@ -1,0 +1,134 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt install wget
+    4  sudo apt install zsh
+    5  ls
+    6  cd ..
+    7  ls
+    8  cd root
+    9  sudo cd root
+   10  -s cd root
+   11  cd root -s
+   12  cd -s root
+   13  cd usr
+   14  ls
+   15  cd local
+   16  ls
+   17  cd ..
+   18  cd sys
+   19  ls
+   20  cd ..
+   21  cd media
+   22  ls
+   23  cd ..
+   24  cd regex_starter
+   25  make
+   26  sudo apt install make
+   27  make
+   28  sudo apt install javac
+   29  sudo apt install java
+   30  make
+   31  make run
+   32  cd ..
+   33  make
+   34  cd regex_starter
+   35  make
+   36  sudo apt install default-jdk
+   37  make
+   38  sudo apt install default-jdk
+   39  sudo dnf install java-latest-openjdk
+   40  sudo install java-latest-openjdk
+   41  sudo apt install java-latest-openjdk
+   42  jp help
+   43  ls
+   44  ls -al
+   45  cd .
+   46  pwd
+   47  cd ..
+   48  pwd
+   49  cd ds2002-frm8ux
+   50  ls
+   51  pwd
+   52  ls
+   53  ls -al
+   54  cd .git
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd ..
+   59  cd ds2002-frm8ux/
+   60  ls
+   61  lsclear
+   62  clear
+   63  ls -al
+   64  touch file1.txt
+   65  ls
+   66  vim file1.txt
+   67  vim file2.txt
+   68  touch file2.txt
+   69  touch file3.txt
+   70  ls -a;
+   71  ls -al
+   72  ls -a
+   73  ls -al
+   74  echo "message"
+   75  echo "message" > file1.txt
+   76  cat file1.tx
+   77  cat file1.txt
+   78  ls -al
+   79  cat file1.txt
+   80  cat file1.txt > file2.txt
+   81  cat file1.txt > file3.txt
+   82  ls -al
+   83  echo "line 2" >> file2.txt 
+   84  ls -al
+   85  cat file2.txt 
+   86  mkdir files
+   87  mv file1.txt files/
+   88  ls -al
+   89  ls files
+   90  ls files -al
+   91  cd files
+   92  mv file1.txt ..
+   93  ls
+   94  cd ..
+   95  mv file1.txt files/
+   96  touch file4.txt
+   97  touch file5.txt
+   98  cp file2.txt file6.txt
+   99  cp file3.txt file7.txt
+  100  ls
+  101  ls -al
+  102  mv file*.txt files/
+  103  ls
+  104  cd files
+  105  ls -al
+  106  rm files/file7
+  107  rm files/file7.txt
+  108  ls files
+  109  cd ..
+  110  rm files/file7.txt
+  111  ls files
+  112  top
+  113  htop
+  114  ps
+  115  ps aus
+  116  ps aux
+  117  cd files
+  118  ps aux > file6.txt
+  119  ls 
+  120  cat file6.txt 
+  121  ls -al
+  122  head file6.txt 
+  123  head -n 5file6.txt 
+  124  head -n 5 file6.txt 
+  125  tail fil36
+  126  tail file6.txt 
+  127  history
+  128  ls 
+  129  ls -al
+  130  !
+  131  !!
+  132  ls -al
+  133  history
+  134  history > file5.txt 
